@@ -33,7 +33,12 @@ const code = `
  */
 `;
 
+/**
+ * Adds external references to be processed.
+ *
+ * @param {PluginEvent} ev - A plugin event.
+ */
 export function onHandleVirtual(ev)
 {
-   ev.data.code.push(code);
+   ev.data.code.push({ code, message: __filename });
 }

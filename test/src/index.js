@@ -16,6 +16,7 @@ suite('Plugin:', () =>
       onHandleVirtual(event);
 
       assert.isArray(event.data.code);
-      assert.isString(event.data.code[0]);
+      assert.isString(event.data.code[0].code);
+      assert.isString(event.data.code[0].message);
    });
 });
