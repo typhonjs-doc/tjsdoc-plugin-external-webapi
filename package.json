@@ -1,6 +1,6 @@
 {
    "name": "tjsdoc-plugin-external-webapi",
-   "version": "0.2.0",
+   "version": "0.1.0",
    "description": "Provides TJSDoc built-in external references for ECMAScript.",
    "homepage": "https://github.com/typhonjs-doc/tjsdoc-plugin-external-webapi",
    "license": "MPL-2.0",
