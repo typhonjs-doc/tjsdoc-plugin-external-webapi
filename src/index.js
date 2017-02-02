@@ -1,3 +1,5 @@
+import path from 'path';
+
 // https://developer.mozilla.org/en-US/docs/Web/API
 const code = `
 /**
@@ -40,5 +42,5 @@ const code = `
  */
 export function onHandleVirtual(ev)
 {
-   ev.data.code.push({ code, message: __filename });
+   ev.data.code.push({ code, filePath: path.relative(process.cwd(), __filename) });
 }

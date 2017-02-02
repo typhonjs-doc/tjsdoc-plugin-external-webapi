@@ -17,6 +17,6 @@ suite('Plugin:', () =>
 
       assert.isArray(event.data.code);
       assert.isString(event.data.code[0].code);
-      assert.isString(event.data.code[0].message);
+      assert.isString(event.data.code[0].filePath);
    });
 });
