@@ -1,8 +1,8 @@
 {
    "name": "tjsdoc-plugin-external-webapi",
-   "version": "0.1.0",
-   "description": "Provides TJSDoc built-in external references for ECMAScript.",
-   "homepage": "https://github.com/typhonjs-doc/tjsdoc-plugin-external-webapi",
+   "version": "0.0.1",
+   "description": "Provides TJSDoc built-in external references for the Web API.",
+   "homepage": "https://github.com/typhonjs-node-tjsdoc/tjsdoc-plugin-external-webapi",
    "license": "MPL-2.0",
    "author": {
       "name": "Mike Leahy"
@@ -10,7 +10,7 @@
    "main": "./dist",
    "repository": {
       "type": "git",
-      "url": "https://github.com/typhonjs-doc/tjsdoc-plugin-external-webapi.git"
+      "url": "https://github.com/typhonjs-node-tjsdoc/tjsdoc-plugin-external-webapi.git"
    },
    "maintainers": [
       {
@@ -22,8 +22,8 @@
    "dependencies": {
    },
    "devDependencies": {
-      "typhonjs-config-eslint": "^0.4.0",
-      "typhonjs-npm-build-test": "^0.4.0"
+      "typhonjs-config-eslint": "^0.5.0",
+      "typhonjs-npm-build-test": "^0.5.0"
    },
    "scripts": {
       "build": "babel-node ./node_modules/typhonjs-npm-scripts-build-babel/scripts/build.js",
@@ -45,6 +45,6 @@
    ],
    "directories": {},
    "bugs": {
-      "url": "https://github.com/typhonjs-doc/tjsdoc/issues"
+      "url": "https://github.com/typhonjs-node-tjsdoc/tjsdoc/issues"
    }
 }
